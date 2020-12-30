@@ -9,6 +9,7 @@ export default function Home() {
   const [messageContent, setMessageContent] = React.useState('')
   const [messages, setMessages] = React.useState([])
 
+  //grab all items
   React.useEffect(() => {
     API.graphql({ query: listMessages }).then((messageData) =>
       setMessages(messageData.data.listMessages.items)

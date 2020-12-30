@@ -1,0 +1,6 @@
+type Message
+  @model
+  @auth(rules: [{ allow: owner }, { allow: private, operations: [read] }]) {
+  id: ID!
+  text: String
+}

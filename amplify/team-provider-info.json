@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-echochat-dev-130810-authRole",
+      "UnauthRoleArn": "arn:aws:iam::936471194299:role/amplify-echochat-dev-130810-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::936471194299:role/amplify-echochat-dev-130810-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-echochat-dev-130810-deployment",
+      "UnauthRoleName": "amplify-echochat-dev-130810-unauthRole",
+      "StackName": "amplify-echochat-dev-130810",
+      "StackId": "arn:aws:cloudformation:us-east-1:936471194299:stack/amplify-echochat-dev-130810/61e41fe0-4ad2-11eb-bb46-0a60596032c9"
+    },
+    "categories": {
+      "auth": {
+        "echochat1bb7b8d7": {}
+      }
+    }
+  }
+}

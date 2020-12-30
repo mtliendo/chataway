@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "echochat",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authechochat1bb7b8d7",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
